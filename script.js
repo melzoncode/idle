@@ -1,5 +1,5 @@
 // script.js
-let coins = 999999;
+let coins = 0;
 let coinsPerClick = 1;
 let coinsPerSecond = 0;
 let pickaxeLevel = 1;
