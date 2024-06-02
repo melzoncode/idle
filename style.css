@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('/src/background.jpg') no-repeat center center fixed; /* Gunakan gambar sebagai background */
+    background-size: cover; /* Sesuaikan gambar agar menutupi seluruh area */
+    height: 100vh; /* Pastikan body mengambil seluruh tinggi viewport */
+    display: flex; /* Tambahkan ini untuk membuat body menjadi flex container */
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    margin: 0; /* Hapus margin default dari body */
+}
+
+#game {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Tambahkan background semi-transparan agar teks dapat terbaca */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center; /* Pastikan teks dalam elemen ini tetap di tengah */
+}
+
+#coin-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#coin-clicker {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#upgrades button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#leaderboard {
+    margin-top: 20px;
+}
+
+#leaderboard-list {
+    list-style: none;
+    padding: 0;
+}
+
+#leaderboard-list li {
+    background: #e0e0e0;
+    padding: 5px;
+    margin: 5px 0;
+}
